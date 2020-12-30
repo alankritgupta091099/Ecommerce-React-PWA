@@ -17,7 +17,7 @@ function App() {
         <Route exact path="/" component={ProductList}/>
         <Route path="/details" component={Details}/>
         <Route path="/cart" component={Cart}/>
-        <Route component={Default}/>
+        {/* <Route component={Default}/> */}
       </Switch>
       <Modal/>
     </React.Fragment>
