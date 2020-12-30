@@ -14,10 +14,10 @@ function App() {
     <React.Fragment>
       <Navbar/>
       <Switch>
-        <Route exact path="/Ecommerce-React-PWA" component={ProductList}/>
-        <Route path="/Ecommerce-React-PWA/details" component={Details}/>
-        <Route path="/Ecommerce-React-PWA/cart" component={Cart}/>
-        {/* <Route component={Default}/> */}
+        <Route exact path="/" component={ProductList}/>
+        <Route path="/details" component={Details}/>
+        <Route path="/cart" component={Cart}/>
+        <Route component={Default}/>
       </Switch>
       <Modal/>
     </React.Fragment>
